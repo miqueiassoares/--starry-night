@@ -1,21 +1,24 @@
-
 .scroll__text {
     display: block;
     position: absolute;
-    width: 55px;
-    height: 25px;
-    left: 733px;
+    width: 3.4375rem;
+    height: 1.5625rem;
+    left: 692px;
     top: 757px;
-
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
     display: flex;
     align-items: center;
-    text-align: center;
     text-transform: uppercase;
-
     transform: rotate(90deg);
+}
+
+.scroll__mouse__img {
+    position: absolute;
+    width: 53px;
+    height: 145px;
+    left: 693px;
+    top: 871px;
+    pointer-events: none;
 }

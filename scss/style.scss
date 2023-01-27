@@ -1,19 +1,11 @@
 @charset "utf-8";
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100%;
-    color: #ffffff;
-    text-align: center;
-}
-
+@import "./reset";
 @import "./background";
 @import "./text";
 @import "./button";
 @import "./scroll";
+
+@import "./header";
+@import "./main";
+@import "./bolls";

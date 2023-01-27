@@ -10,20 +10,47 @@
   font-size: 100%;
   color: #ffffff;
   text-align: center;
+  list-style: none;
+  text-decoration: none;
 }
 
-.one {
-  width: 90rem;
-  height: 64rem;
+html, body {
+  overflow: hidden;
+}
+
+.opening {
   background: #000000 url(../img/starsOne.png);
+}
+.opening .content {
+  background: url(../img/montOne.png);
+}
+
+.home {
+  background: #000000 url(../img/starsTwo.png);
+}
+.home .content {
+  background: url(../img/montTwo.png);
+}
+
+.opening, .home {
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
-.one .content {
-  background: url(../img/montOne.png);
+.opening .content, .home .content {
   width: 100%;
   height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+.opening .content .auto, .home .content .auto {
+  position: relative;
+  max-width: 1440px;
+  max-height: 1024px;
+  margin: auto;
 }
 
 .text {
@@ -81,28 +108,130 @@
   left: 625px;
   top: 522px;
   border-radius: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0086E7), color-stop(243.75%, rgba(10, 235, 33, 0)));
+  background: linear-gradient(180deg, #0086E7 0%, rgba(10, 235, 33, 0) 243.75%);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.desktopOne--button:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .scroll__text {
   display: block;
   position: absolute;
-  width: 55px;
-  height: 25px;
-  left: 733px;
+  width: 3.4375rem;
+  height: 1.5625rem;
+  left: 692px;
   top: 757px;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
   text-transform: uppercase;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
+}
+
+.scroll__mouse__img {
+  position: absolute;
+  width: 53px;
+  height: 145px;
+  left: 693px;
+  top: 871px;
+  pointer-events: none;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5vw;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+ul li {
+  display: inline;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+ul li a {
+  font-size: 1rem;
+  line-height: 19px;
+}
+
+header {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 113px;
+  background: rgba(0, 0, 0, 0.1);
+}
+header .logo {
+  position: relative;
+  width: 91px;
+  height: 91px;
+  left: 46px;
+  top: 11px;
+}
+header nav {
+  margin-left: 10vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 35vw;
+}
+
+main .desktopOne__sub__title {
+  top: 182px;
+}
+main .desktopOne__title {
+  top: 251px;
+}
+main .desktopOne__text {
+  top: 353px;
+}
+main .desktopOne--button {
+  top: 507px;
+}
+
+.bolls .boll__boll {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1.3px solid #FFFFFF;
+  left: 31px;
+}
+.bolls .boll__white {
+  top: 352px;
+  background: #FFFFFF;
+}
+.bolls div:nth-child(2) {
+  top: 390px;
+}
+.bolls div:nth-child(3) {
+  top: 428px;
+}
+.bolls div:nth-child(4) {
+  top: 466px;
+}
+.bolls div:nth-child(5) {
+  top: 506px;
 }/*# sourceMappingURL=style.css.map */
