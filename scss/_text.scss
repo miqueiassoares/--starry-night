@@ -14,7 +14,6 @@
     font-size: 2rem;
     line-height: 2.4375rem;
     text-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-    @include styleFont;
 }
 .desktopOne__title {
     position: absolute;
@@ -25,7 +24,6 @@
     font-weight: 700;
     font-size: 4.5rem;
     line-height: 5.4375rem;
-    @include styleFont;
 }
 .desktopOne__text {
     position: absolute;

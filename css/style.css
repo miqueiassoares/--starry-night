@@ -26,15 +26,7 @@
   height: 100%;
 }
 
-.desktopOne__sub__title {
-  width: 60.5625rem;
-  height: 5.5625rem;
-  position: absolute;
-  left: 13.875rem;
-  top: 2.875rem;
-  font-size: 2rem;
-  line-height: 2.4375rem;
-  text-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+.text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,6 +37,17 @@
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: uppercase;
+}
+
+.desktopOne__sub__title {
+  width: 60.5625rem;
+  height: 5.5625rem;
+  position: absolute;
+  left: 13.875rem;
+  top: 2.875rem;
+  font-size: 2rem;
+  line-height: 2.4375rem;
+  text-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 .desktopOne__title {
@@ -56,27 +59,50 @@
   font-weight: 700;
   font-size: 4.5rem;
   line-height: 5.4375rem;
+}
+
+.desktopOne__text {
+  position: absolute;
+  width: 47.875rem;
+  height: 8.125rem;
+  left: 21rem;
+  top: 23.3125rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.desktopOne--button {
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  left: 625px;
+  top: 522px;
+  border-radius: 10px;
+}
+
+.scroll__text {
+  display: block;
+  position: absolute;
+  width: 55px;
+  height: 25px;
+  left: 733px;
+  top: 757px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
   text-transform: uppercase;
-}
-
-.desktopOne__text {
-  position: absolute;
-  width: 766px;
-  height: 130px;
-  left: 336px;
-  top: 373px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }/*# sourceMappingURL=style.css.map */
