@@ -1,0 +1,13 @@
+.one {
+    width: 90rem;
+    height: 64rem;
+    background: #000000 url(../img/starsOne.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    .content {
+        background: url(../img/montOne.png);
+        width: 100%;
+        height: 100%;
+    }
+}

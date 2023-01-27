@@ -1,0 +1,21 @@
+
+.scroll__text {
+    display: block;
+    position: absolute;
+    width: 55px;
+    height: 25px;
+    left: 733px;
+    top: 757px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    transform: rotate(90deg);
+}
